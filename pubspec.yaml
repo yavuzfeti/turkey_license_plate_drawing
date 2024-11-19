@@ -1,0 +1,31 @@
+name: turkey_license_plate_drawing
+description: "turkey_license_plate_drawing"
+version: 0.0.1
+homepage: https://github.com/yavuzfeti/turkey_license_plate_drawing
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: lib/Assets/Fonts/Quicksand/Bold.ttf
+        - asset: lib/Assets/Fonts/Quicksand/Light.ttf
+        - asset: lib/Assets/Fonts/Quicksand/Medium.ttf
+        - asset: lib/Assets/Fonts/Quicksand/Regular.ttf
+        - asset: lib/Assets/Fonts/Quicksand/SemiBold.ttf
+
+  assets:
+    - lib/Assets/Images/
